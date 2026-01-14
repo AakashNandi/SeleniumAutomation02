@@ -5,10 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class Page2Objects extends browser {
-    static By fullName = By.xpath("//input[@placeholder='enter your fullName']");
+    static By fullName = By.xpath("//input[@placeholder='Enter your full name']");
     static By mailId = By.xpath("//input[@placeholder='Enter Rediffmail ID']");
-    static By checkAvailability = By.xpath("//input[@value='check availability']");
-    static By message = By.xpath("/input[@value='Check availability']/ancestor-or-self::*//span[@class='success']");
+    static By checkAvailability = By.xpath("//input[@value='Check availability']");
+    static By message = By.xpath("//input[@value='Check availability']/ancestor-or-self::*//span[@class='success']");
 
     public static WebElement fullNameTextbox(){
         WebElement element = driver.findElement(fullName);

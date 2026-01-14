@@ -1,5 +1,6 @@
 package Locators;
 
+import Browser.browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -7,7 +8,7 @@ import java.util.List;
 
 import static Browser.browser.driver;
 
-public class Page1Objects {
+public class Page1Objects extends browser {  //extended browser bcz we have used driver from browser class
     static By logo = By.xpath("//div[@class='logo']");  //will use it for wait condition
     static By createAccount = By.tagName("a");  //will use it to find create account tag
 

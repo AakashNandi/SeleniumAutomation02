@@ -18,7 +18,7 @@ public class browser {
     public static Select select;
 
     //Open browser based on the choice....
-    public static void openBrowser() throws Exception{
+    public static void openBrowser(String browserData) throws Exception{
         try{    //use try catch to handle errors
             String choice = utility.properties("browser");
             if(choice.equalsIgnoreCase("Chrome"))

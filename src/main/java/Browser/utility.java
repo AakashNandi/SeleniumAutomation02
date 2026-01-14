@@ -7,7 +7,7 @@ public class utility {
     public static String properties(String data) throws Exception{  //browser
         String propertiesData = null;
         try{
-            String filePath = System.getProperty("user.dir")+"//src//main//resources//configure.properties";
+            String filePath = System.getProperty("user.dir")+"//src//main//resources//configuration.properties";
             FileReader reader = new FileReader(filePath);
             Properties p = new Properties();
             p.load(reader);

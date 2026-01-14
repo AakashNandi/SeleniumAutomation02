@@ -18,10 +18,11 @@ public class utility {
         return propertiesData;
     }
 
-    public static void main(String[] args) throws Exception{
-        System.out.println("browser");   //from configuration.properties
-        System.out.println("url");
-    }
+    //To check:
+//    public static void main(String[] args) throws Exception{
+//        System.out.println("browser");   //from configuration.properties
+//        System.out.println("url");
+//    }
 }
 
 
